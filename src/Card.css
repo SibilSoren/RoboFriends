@@ -1,0 +1,20 @@
+.cardItem{
+    width: 300px;
+    height: 400px;
+    background-color: coral;
+    border-radius: 10px;
+    transition: all 200ms;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.cardItem img{
+    width: 250px;
+    height: 250px;
+    
+   
+}
+
+.cardItem:hover{
+    transform: scale(1.03);
+    background-color: lightcoral;
+}
