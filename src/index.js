@@ -1,30 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import Card from "./Card";
+
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { robots } from "./robots";
+import App from "./App";
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <div className="row ml-2">
-      <Card
-        id={robots[0].id}
-        roboName={robots[0].name}
-        email={robots[0].email}
-      />
-      <Card
-        id={robots[1].id}
-        roboName={robots[1].name}
-        email={robots[1].email}
-      />
-      <Card
-        id={robots[2].id}
-        roboName={robots[2].name}
-        email={robots[2].email}
-      />
-    </div>
+      <App/>
   </React.StrictMode>,
   document.getElementById("root")
 );
